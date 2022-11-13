@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /source
+whisper "$1" --model ${2:-small}
